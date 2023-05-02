@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/book_menu"
+            android:icon="@drawable/contact"
+            android:title="TK di Lhokseumawe"/>
+        <item android:id="@+id/home_menu"
+            android:icon="@drawable/ic_sd"
+            android:title="SD di Lhokseumawe"/>
+
+        <item android:id="@+id/track_menu"
+            android:icon="@drawable/ic_smp"
+            android:title="SMP di Lhokseumawe"/>
+
+        <item android:id="@+id/history_menu"
+            android:icon="@drawable/ic_sma"
+            android:title="SMA di Lhokseumawe"/>
+
+    </group>
+
+    <item android:title="Profil">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item android:id="@+id/profile_menu"
+                    android:icon="@drawable/ic_login"
+                    android:title="Akun Kamu"/>
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Lainnya">
+
+        <menu>
+
+        <group android:checkableBehavior="single">
+
+        <item android:id="@+id/settings_menu"
+            android:icon="@drawable/settings"
+            android:title="Pengaturan"/>
+
+        <item android:id="@+id/contact_menu"
+            android:icon="@drawable/contact"
+            android:title="Hubungi Kami"/>
+
+        </group>
+        </menu>
+    </item>
+
+
+
+
+
+</menu>
